@@ -1,0 +1,66 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: auto;
+    height: 100vh; /* Pour occuper toute la hauteur de la page */
+  }
+  
+  .sidebar {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #333;
+ 
+  }
+   
+  #lala {
+    padding-top: 300px;
+
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #555;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #555;
+  }
+  
+  .main-content {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 20px;
+  }
+  
+  .main-content h2 {
+    color: #333;
+  }
+  
+  .main-content p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+
+  .dis{
+   color:black
+
+  }
+
+
+ /* Ajout d'une classe pour la partie distincte */
+.action-buttons {
+  margin-top: 50px;
+}
+

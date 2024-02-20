@@ -1,0 +1,50 @@
+.notesBox {
+    padding: 10px;
+    border-radius: 00px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    background-color:  hsl(200, 29%, 94%);
+    
+}
+
+.notesBox h2 {
+    margin-bottom: 10px;
+    padding-top: 0px;
+
+}
+
+  .dates .dateInput {
+    width: 10%; /* Par exemple, définissez une largeur pour la date */
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    position: center;
+}
+
+ .notesBox .textarea {
+    width: 0%; /* Par exemple, laissez la largeur de la zone de texte à 100% */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical; /* Permet à la zone de texte de redimensionner verticalement */
+    position: center;
+   
+}
+
+.notesBox button {
+    background-color: #d9dbdd;
+    color: #110f0f;
+    border: none;
+    padding: 20px 20px;
+    border-radius: px;
+    cursor: pointer;
+    width: 10%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.notesBox button:hover {
+    background-color: #b37d00;
+}
